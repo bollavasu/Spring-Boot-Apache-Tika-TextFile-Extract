@@ -1,0 +1,20 @@
+Apache Tika - a content analysis toolkit
+The Apache Tika™ toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF). All of these file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation, and much more. You can find the latest release on the download page. Please see the Getting Started page for more information on how to start using Tika.
+
+The Parser and Detector pages describe the main interfaces of Tika and how they work.
+
+If you're interested in contributing to Tika, please see the Contributing page or send an email to the Tika development list.
+
+Tika is a project of the Apache Software Foundation, and was formerly a subproject of Apache Lucene.
+
+Latest News
+22 December 2018: Apache Tika Release
+Apache Tika 1.20 has been released! This release includes one critical bug fix: prevent tika-server from responding with a 503 after hitting an OutOfMemory Error (TIKA-2776). Please see the CHANGES.txt file for the full list of changes in the release and have a look at the download page for more information on how to obtain Apache Tika 1.20.
+9 October 2018: Apache Tika Release
+Apache Tika 1.19.1 has been released! This release includes two critical bug fixes: a) fixing the MP3Parser (TIKA-2730) and b) limiting entity expansions in SAX parsing (TIKA-2727). Please see the CHANGES.txt file for the full list of changes in the release and have a look at the download page for more information on how to obtain Apache Tika 1.19.1.
+18 September 2018: Apache Tika Release
+Apache Tika 1.19 has been released! This release requires Java 8. This release includes bug fixes, improved mime detection, security fixes and upgrades to dependencies. Please see the CHANGES.txt file for the full list of changes in the release and have a look at the download page for more information on how to obtain Apache Tika 1.19.
+24 April 2018: Apache Tika Release
+Apache Tika 1.18 has been released! This release includes bug fixes (e.g. extraction from grouped shapes in PPT), security fixes and upgrades to dependencies. PLEASE NOTE: The next versions will require Java 8. Please see the CHANGES.txt file for the full list of changes in the release and have a look at the download page for more information on how to obtain Apache Tika 1.18.
+13 December 2017: Apache Tika Release
+Apache Tika 1.17 has been released! This release includes new support for automatic image captioning, as well as numerous bug fixes and upgrades to dependencies. PLEASE NOTE: this will be the last version that will support Java 7. The next versions will require Java 8. Please see the CHANGES.txt file for the full list of changes in the release and have a look at the download page for more information on how to obtain Apache Tika 1.17.
